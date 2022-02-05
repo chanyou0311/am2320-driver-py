@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "am2320-driver"
-version = "0.1.1"
+version = "0.1.2"
 readme = "README.md"
 description = "This is pip package for using AM2320 Digital Temperature and Humidity Sensor."
 authors = ["chanyou0311 <chanyou0311@gmail.com>"]
@@ -9,7 +9,7 @@ homepage = "https://github.com/chanyou0311/am2320-driver-py"
 repository = "https://github.com/chanyou0311/am2320-driver-py"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 smbus2 = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
